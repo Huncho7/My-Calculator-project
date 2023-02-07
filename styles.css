@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana;
+  font-weight: bolder;
+  color: #222;
+  background-color: grey;
+}
+
+main {
+  margin-top:20rem ;
+  width: 50vw;
+  margin: auto;
+  height: 50vh;
+  background-color: grey;
+  border: 3px solid black;
+}
+
+.inputs {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 25vh;
+  background-color: grey;
+  margin-bottom: 2rem;
+}
+
+.input1 {
+  padding: 0.3rem;
+  background-color:black;
+  border: none;
+  color: white;
+}
+
+.input2 {
+  padding: 0.3rem;
+  background-color:black;
+  border: none;
+  color: white;
+}
+
+.answer {
+  padding: 0.3rem;
+  background-color:black ;
+  border: none;
+  color: white;
+}
+
+.operation-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top:;
+    margin: auto;
+    align-items: center;
+}
+
+.addition {
+    padding: 2% 4%;
+    font-family: Verdana;
+    background-color: black;
+    border:none;
+    border-radius: .3em;
+    color: white;
+}
+
+.subtraction {
+    padding: 2% 4%;
+    font-family: Verdana;
+    background-color: black;
+    border:none;
+    border-radius: .3em;
+    color: white;
+}
+
+.division {
+    padding: 2% 4%;
+    font-family: Verdana;
+    background-color: black;
+    border:none;
+    border-radius: .3em;
+    color: white;
+}
+
+.multiplication {
+    padding: 2% 4%;
+    font-family: Verdana;
+    background-color: black;
+    border:none;
+    border-radius: .3em;
+    color: white;
+}
+
+.square {
+    padding: 2% 4%;
+    font-family: Verdana;
+    background-color: black;
+    border:none;
+    border-radius: .3em;
+    color: white;
+}
