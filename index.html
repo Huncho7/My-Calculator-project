@@ -8,14 +8,19 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <main>
+    <header>
+        <button class="open">Open Calculator</button>
+    </header>
+    <main class="main hidden">
+        <div class="close-div">
+        <button class="close">x</button>
+        </div>
         <div class="inputs">
         <input type="text" name="" class="input1" id="">
         <input type="text" name="" class="input2" id="">
         <input type="text" name="" class="answer" id="">
         </div>
 
-        </div>
         <div class="operation-buttons">
             <button class="addition">+</button>
             <button class="subtraction">-</button>
@@ -23,7 +28,9 @@
             <button class="multiplication">*</button>
             <button class="square">^</button>
         </div>
+        </div>
     </main>
+    <div class="overlay hidden"></div>
 <script src="./script.js"></script>
 </body>
 </html>
